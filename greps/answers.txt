@@ -1,15 +1,15 @@
 # Part 1
 ### a)
-
+Refer to grep files.
 
 
 
 ### b)
-
+Refer to  captured files.
 
 
 ### c)
-
+Refer to the contents in the grep files.
 
 
 
@@ -24,14 +24,21 @@
 
 # Part 2
 ### a)
-
+las | wc -l
+16 minus 1(instruction.txt file) for 15 pokemon caught
 
 
 
 
 
 ### b)
-
+The three biggest pokemon (lines) are charizard, beedrill, and pikachu
+➜  forest git:(master) ✗ grep izard$ filescan_00.2 | wc -l
+      40
+➜  forest git:(master) ✗ grep beed filescan_00.1 | wc -l
+      40
+➜  forest git:(master) ✗ grep pika filescan_00.3 | wc -l
+      40
 
 
 
